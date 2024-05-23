@@ -5,7 +5,7 @@
 <html>
 <head>
     <title>Inventory Management System</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/style.css">
 
 </head>
 <body>

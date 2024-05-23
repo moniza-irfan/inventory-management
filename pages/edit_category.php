@@ -33,6 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html>
 <head>
     <title>Edit Category</title>
+    <link rel="stylesheet" type="text/css" href="../public/css/editC.css">
 </head>
 <body>
     <h2>Edit Category</h2>

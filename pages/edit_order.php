@@ -34,6 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html>
 <head>
     <title>Edit Order</title>
+    <link rel="stylesheet" type="text/css" href="../public/css/editO.css">
 </head>
 <body>
     <h2>Edit Order</h2>

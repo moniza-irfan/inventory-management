@@ -38,6 +38,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html>
 <head>
     <title>Edit Product</title>
+    <link rel="stylesheet" type="text/css" href="../public/css/editP.css">
+
 </head>
 <body>
     <h2>Edit Product</h2>

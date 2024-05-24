@@ -2,11 +2,11 @@
 session_start();
 
 if (isset($_SESSION['user_id'])) {
-    header("Location: home.php");
+    header("Location: pages/home.php");
     exit();
 }
 
-include('../includes/db.php');
+include('includes/db.php');
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ($result->num_rows > 0) {
         $row = $result->fetch_assoc();
         $_SESSION['user_id'] = $row['id'];
-        header("Location: home.php");
+        header("Location: pages/home.php");
         exit();
     } else {
         $error = "Invalid username or password";
@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html>
 <head>
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="../public/css/login.css">
+    <link rel="stylesheet" type="text/css" href="public/css/login.css">
 </head>
 <body>
     <h2>Login</h2>

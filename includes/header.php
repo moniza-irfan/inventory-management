@@ -21,6 +21,7 @@
             <th><a href='products.php?id={$row['id']}'>Products</a></th>
             <th><a href='brands.php?id={$row['id']}'>Brands</a></th>
             <th><a href='orders.php?id={$row['id']}'>Orders</a></th>
+            <th><a href='order_items.php?id={$row['id']}'>Orders Items</a></th>
             <th><a href="logout.php">Logout</a></th>
         </tr>
     </table>
